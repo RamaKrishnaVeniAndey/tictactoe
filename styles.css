@@ -1,0 +1,36 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    text-align: center;
+    
+    
+}
+section{
+    text-align: center;
+    padding: 50px;
+    color: darkred;
+    background-color: darkseagreen;
+}
+.game--container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 300px;
+    margin: 50px,auto;
+  
+   
+}
+
+.cell{
+    font-family: "permanent Marker",cursive;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 50px;
+}
+h1{
+    color: crimson;
+}
+div{
+    background-color: cadetblue;
+}
